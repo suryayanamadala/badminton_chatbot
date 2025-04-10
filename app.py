@@ -3,7 +3,7 @@ import openai
 import os
 
 app = Flask(__name__)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 @app.route("/")
 def home():
